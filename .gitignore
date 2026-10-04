@@ -1,0 +1,35 @@
+# Data and results (not distributed in this repository — see README)
+/data/
+/results/
+/Roads/
+/downloaded_papers/
+/cache/
+/.cache/
+
+# LaTeX build files
+*.tex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.cls
+/figures/
+/build/
+
+# Local notes and scripts
+*.md
+!README.md
+*.sh
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.DS_Store
+.tectonic-cache/
+tools/
